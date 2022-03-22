@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card
+{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_body
+{
+    background-color: white;
+    width: 50%;
+    height: 90vh;
+    border-radius: 45px;
+}
+
+.first
+{
+    height: 50%;
+    background-color: #4182EB;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+}
