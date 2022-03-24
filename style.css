@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card
@@ -27,4 +28,41 @@
     background-color: #4182EB;
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
+}
+
+.first_section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.arrow_img
+{
+    width: 25px;
+    height: 20px;
+}
+
+.cart_img
+{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.cart
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow
+{
+    padding-top: 10px;
 }
